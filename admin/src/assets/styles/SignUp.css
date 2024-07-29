@@ -1,0 +1,132 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+
+.dropdownBtnStrap {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  width: 100% !important;
+  padding: 1rem 1.5rem !important;
+  text-align: left !important;
+  background-color: #023047 !important;
+
+}
+
+.dropdownMenuStrap {
+  width: 100% !important;
+}
+
+.dropdownText {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.signup_btn {
+  padding: 10px 15px !important;
+  border-radius: 8px !important;
+  text-align: center !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.3px !important;
+  color: #ffffff !important;
+  background-color: #023047 !important;
+}
+
+.dropdownBtnCustom {
+  background-color: #023047 !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border-radius: 0.5rem !important;
+  padding: 1rem 1.5rem !important;
+}
+
+.signup_input {
+  font-family: "Gotham" !important;
+  box-sizing: border-box;
+  background: #fcfcfc !important;
+  border-radius: 8px 0 0 8px;
+  padding: 16px 20px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: black !important;
+}
+
+.country_codeBtn {
+  background-color: #023047 !important;
+  border-radius: 8px 0px 0px 8px !important;
+  color: white !important;
+  width: 80px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+}
+
+.signup_input::placeholder {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #838aa3;
+}
+
+.dropdownField {
+  font-family: "Gotham" !important;
+  box-sizing: border-box;
+  background: #fcfcfc !important;
+  border-radius: 8px 0 0 8px;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: black !important;
+}
+
+
+
+li.disabled {
+  pointer-events: none;
+  /* Disable click events */
+  opacity: 0.6;
+  /* Reduce opacity to indicate disabled state */
+  /* Add any other styling to indicate disabled state */
+}
+
+@media screen and (min-width: 1551px) {
+  .img-fluid-auth {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .img-fluid-auth {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:992px) {
+  .signup_input {
+
+    padding: 10px 15px !important;
+
+  }
+
+  .signup_typo {
+    margin-top: 3%;
+    font-family: "Gotham Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #023047;
+  }
+}

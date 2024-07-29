@@ -1,0 +1,176 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+
+.cancel_btn {
+    background: rgba(2, 48, 71, 0.03);
+    border: 1px solid rgba(224, 229, 242, 0.18);
+    color: #023047;
+    height: 30px;
+}
+
+.sigup_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    color: #023047 !important;
+}
+
+.signup_typo {
+    margin-top: 3%;
+    font-family: "Gotham Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+
+    text-align: center;
+    color: #023047;
+}
+
+.img-fluid-auth {
+    width: 100%;
+}
+
+.sub_title {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #023047 !important;
+}
+
+.sub_title_signup {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+}
+
+.signup_label {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #838aa3;
+}
+
+.signup_input {
+    font-family: "Gotham" !important;
+    box-sizing: border-box;
+    background: #fcfcfc !important;
+    border-radius: 8px 0 0 8px;
+    padding: 16px 20px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: black !important;
+}
+
+.border_left {
+    border-top: 1px solid #f3f3f3 !important;
+    border-left: 1px solid #f3f3f3 !important;
+    border-bottom: 1px solid #f3f3f3 !important;
+    border-right: none !important;
+}
+
+.border_right {
+    border-top: 1px solid #f3f3f3 !important;
+    border-left: none !important;
+    border-bottom: 1px solid #f3f3f3 !important;
+    border-right: 1px solid #f3f3f3 !important;
+}
+
+.signup_input::placeholder {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #838aa3;
+}
+
+.option_style {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #838aa3;
+}
+
+.group_text {
+    background-color: #ffb703 !important;
+    border-radius: 8px 0px 0px 8px !important;
+    color: white !important;
+    width: 80px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    /* identical to box height, or 131% */
+    text-align: center !important;
+    justify-content: center;
+}
+
+.group_text_full {
+    background-color: #ffb703 !important;
+    border-radius: 8px 0px 0px 8px !important;
+    color: white !important;
+    width: 141px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    /* identical to box height, or 131% */
+    text-align: center !important;
+    justify-content: center;
+}
+
+.login_btn {
+    padding: 20px 15px !important;
+    border-radius: 8px !important;
+    text-align: center !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    height: 100% !important;
+    letter-spacing: 0.3px !important;
+    color: #ffffff !important;
+    background-color: #023047 !important;
+}
+
+@media screen and (min-width: 1551px) {
+    .img-fluid-auth {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .img-fluid-auth {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:992px) {
+    .signup_input {
+
+        padding: 10px 15px !important;
+
+    }
+
+    .signup_typo {
+        margin-top: 3%;
+        font-family: "Gotham Light";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #023047;
+    }
+}
